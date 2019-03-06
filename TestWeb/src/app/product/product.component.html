@@ -1,0 +1,22 @@
+<h2>Product List</h2>
+
+<p *ngIf="!products"><em>Loading...</em></p>
+
+<table id ="product" class='table table-striped products' *ngIf="products">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th >Product Name</th>
+      <th>Model Code</th>
+      <th>Serial Number</th>     
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let product of products; let i=index;">
+      <td>{{i+1}}</td>
+      <td>{{product.productName }}</td>
+      <td>{{product.modelCode }}</td>
+      <td>{{product.serialNumber}}</td>      
+    </tr>
+  </tbody>
+</table>
