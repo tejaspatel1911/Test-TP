@@ -21,4 +21,3 @@ C:\tp\tv\Samsung-Test\TestWeb\obj\Debug\netcoreapp2.2\TestWeb.Views.pdb
 C:\tp\tv\Samsung-Test\TestWeb\obj\Debug\netcoreapp2.2\TestWeb.dll
 C:\tp\tv\Samsung-Test\TestWeb\obj\Debug\netcoreapp2.2\TestWeb.pdb
 C:\tp\tv\Samsung-Test\TestWeb\obj\Debug\netcoreapp2.2\TestWeb.csproj.CopyComplete
-C:\tp\tv\Samsung-Test\TestWeb\obj\Debug\netcoreapp2.2\TestWeb.csprojAssemblyReference.cache
