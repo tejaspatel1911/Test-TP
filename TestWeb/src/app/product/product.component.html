@@ -12,8 +12,8 @@
     </tr>
   </thead>
   <tbody>
-    <tr *ngFor="let product of products; let i=index;">
-      <td>{{i+1}}</td>
+    <tr *ngFor="let product of products">
+      <td>{{product.id }}</td>
       <td>{{product.productName }}</td>
       <td>{{product.modelCode }}</td>
       <td>{{product.serialNumber}}</td>      
