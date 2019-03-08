@@ -10,23 +10,14 @@ import { IProduct } from '../model/product';
 export class ProductComponent implements OnInit {
 
   products: any = [];  
-  constructor(private _productService: ProductService) {
-    this.loadProducts();
+  constructor(private _productService: ProductService) {    
   }
 
   ngOnInit() {
-    //this.loadProducts();
+    this.loadProducts();
   }
 
-  //loadProducts(): {
-  //  this.products = [];
-  //  this._productService.getAllProduct()
-  //    .subscribe(result => {
-  //      console.log(result);
-  //      this.products = result;       
-  //    }, error => console.error(error));
-  //}
-   loadProducts() {
+  loadProducts() {
     this.products = [];
     this._productService.getAllProduct()
       .subscribe(result => {
